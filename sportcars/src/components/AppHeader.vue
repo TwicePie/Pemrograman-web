@@ -9,8 +9,9 @@
         <img src="/assets/image 18.png" alt="image-header" class="w-7" />
       </div>
       <div class="nav-right flex space-x-4">
+        <li><router-link to="/list" class="text-white hover:underline">CAR LIST</router-link></li>
         <li><router-link to="/about" class="text-white hover:underline">ABOUT US</router-link></li>
-        <a href="#" class="text-white hover:underline">SEARCH</a>
+        <li><router-link to="/about" class="text-white hover:underline">SEARCH</router-link></li>
       </div>
     </header>
   </template>

@@ -7,6 +7,7 @@ import About from '../views/about.vue';
 import Contact from '../views/contact.vue';
 import News from '../views/news.vue';
 import Cookie from '../views/cookie.vue';  // Tambahkan import untuk Cookie page
+import List from '../views/list.vue';
 
 const routes = [
   {
@@ -48,6 +49,11 @@ const routes = [
     path: '/cookie',  // Tambahkan rute baru untuk Cookie Settings
     name: 'Cookie',
     component: Cookie,
+  },
+  {
+    path: '/list',  // Tambahkan rute baru untuk Cookie Settings
+    name: 'List',
+    component: List,
   },
 ];
 
